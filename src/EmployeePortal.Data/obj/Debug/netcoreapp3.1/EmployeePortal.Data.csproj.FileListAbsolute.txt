@@ -1,0 +1,15 @@
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Data.deps.json
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Data.runtimeconfig.json
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Data.runtimeconfig.dev.json
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Data.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Data.pdb
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Core.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\bin\Debug\netcoreapp3.1\EmployeePortal.Core.pdb
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.csprojAssemblyReference.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.AssemblyInfoInputs.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.AssemblyInfo.cs
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.csproj.CoreCompileInputs.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.csproj.CopyComplete
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.pdb
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Data\obj\Debug\netcoreapp3.1\EmployeePortal.Data.genruntimeconfig.cache

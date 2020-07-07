@@ -1,0 +1,9 @@
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\bin\Debug\net5.0\EmployeePortal.Core.deps.json
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\bin\Debug\net5.0\EmployeePortal.Core.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\bin\Debug\net5.0\EmployeePortal.Core.pdb
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\net5.0\EmployeePortal.Core.AssemblyInfoInputs.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\net5.0\EmployeePortal.Core.AssemblyInfo.cs
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\net5.0\EmployeePortal.Core.csproj.CoreCompileInputs.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\net5.0\EmployeePortal.Core.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\net5.0\EmployeePortal.Core.pdb
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\net5.0\EmployeePortal.Core.csprojAssemblyReference.cache
