@@ -1,35 +1,65 @@
-﻿using System;
+﻿using EmployeePortal.Core;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EmployeePortal.Data.Repository
 {
-    public class UnitOfWork : IUnitOfWork
+
+    public class UnitOfWork : IUnitOfWork  
     {
-        //public PortalContext Context => throw new NotImplementedException();
-        public PortalContext Context { get; }
-        public UnitOfWork(PortalContext context )
+        private PortalContext  _dbContext;
+        private Repository<Employee> _employees;
+        private Repository<EmployeeType> _employeeTypes;
+
+        public UnitOfWork(PortalContext dbContext)
         {
-            Context = context;
-        }
-        public void Commit()
-        {
-            Context.SaveChanges();
+            _dbContext = dbContext;
         }
 
-        public async Task CommitAsync()
+        public IRepository<Employee> Employees
         {
-            await Context.SaveChangesAsync();
+            get
+            {
+                return _employees ??
+                    (_employees = new Repository<Employee>(_dbContext));
+            }
+        }
+
+        public IRepository<EmployeeType> EmployeeTypes
+        {
+            get
+            {
+                return _employeeTypes ??
+                    (_employeeTypes = new Repository<EmployeeType>(_dbContext));
+            }
+        }
+
+        public void Commit()
+        {
+            _dbContext.SaveChanges();
         }
 
         public void Dispose()
         {
-            Context.Dispose();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
-        public async Task DisposeAsync()
+
+        public void Save()
         {
-            await Context.DisposeAsync();
+            _dbContext.SaveChanges();
+        }
+
+        public async Task<int> SaveAsync()
+        {
+             return await _dbContext.SaveChangesAsync();
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            
         }
     }
 }

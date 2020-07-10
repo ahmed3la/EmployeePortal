@@ -14,6 +14,7 @@ namespace EmployeePortal.Data.Configuration
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
             builder.HasKey(a => a.Id);
+            builder.Property(a => a.Id).UseIdentityColumn();
 
             builder.HasOne(a => a.EmployeeType)
                 .WithMany(a => a.Employees)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EmployeePortal.Data;
+using EmployeePortal.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,7 +29,8 @@ namespace EmployeePortalUI
             services.AddDbContextPool<PortalContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("defaultConnection"));
             });
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 
             services.AddControllersWithViews();
         }
@@ -57,7 +59,7 @@ namespace EmployeePortalUI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Employees}/{action=Index}/{id?}");
             });
         }
     }

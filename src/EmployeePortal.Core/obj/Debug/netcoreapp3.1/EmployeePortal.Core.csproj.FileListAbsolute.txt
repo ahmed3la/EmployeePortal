@@ -6,3 +6,4 @@ D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePort
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\netcoreapp3.1\EmployeePortal.Core.csproj.CoreCompileInputs.cache
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\netcoreapp3.1\EmployeePortal.Core.dll
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\netcoreapp3.1\EmployeePortal.Core.pdb
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortal.Core\obj\Debug\netcoreapp3.1\EmployeePortal.Core.csprojAssemblyReference.cache

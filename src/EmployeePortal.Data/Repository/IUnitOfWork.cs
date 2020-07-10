@@ -1,15 +1,17 @@
-﻿using System;
+﻿using EmployeePortal.Core;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EmployeePortal.Data.Repository
 {
-    public interface IUnitOfWork:IDisposable
+    public interface IUnitOfWork : IDisposable
     {
-        PortalContext Context { get; }
-        Task CommitAsync();
-        void Commit();
-
+        IRepository<Employee> Employees { get; }
+        IRepository<EmployeeType> EmployeeTypes { get; }
+        void Save();
+        Task<int> SaveAsync();
     }
 }

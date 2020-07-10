@@ -14,8 +14,10 @@ namespace EmployeePortal.Data.Configuration
         public void Configure(EntityTypeBuilder<EmployeeType> builder)
         {
             builder.HasKey(a => a.Id);
+            builder.Property(a => a.Id).UseIdentityColumn();
+            
 
-          
+
         }
     }
 }
