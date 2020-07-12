@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYMtq4hU9pZ4OsNTpnSXGUW8Lk1ZUcN5teng4TbzxWeOR3TnEqY+mpxVJol9D7Tm4+IEm/Hatm1FgKEQT3vhnw==",
+  "dgSpecHash": "SoXc8JuMEHUhjNYBzywoL7haYDONdnCL+nDmXJvQ0tHYKkokLP1hykQjKqXWCIMZW3Ndr9Eoc5WTtRiCpnNxBg==",
   "success": true,
   "projectFilePath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\XUnitTestData\\XUnitTestData.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.5\\microsoft.extensions.logging.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.5\\microsoft.extensions.logging.console.3.1.5.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.5\\microsoft.extensions.options.configurationextensions.3.1.5.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.net.test.sdk\\16.6.0\\microsoft.net.test.sdk.16.6.0.nupkg.sha512",

@@ -179,3 +179,6 @@ D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePort
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortalUI\obj\Debug\netcoreapp3.1\EmployeePortalUI.dll
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortalUI\obj\Debug\netcoreapp3.1\EmployeePortalUI.pdb
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortalUI\obj\Debug\netcoreapp3.1\EmployeePortalUI.genruntimeconfig.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortalUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortalUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\src\EmployeePortalUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll

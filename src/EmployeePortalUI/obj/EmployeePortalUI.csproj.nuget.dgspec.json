@@ -186,6 +186,14 @@
             "Microsoft.EntityFrameworkCore.sqlserver": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace EmployeePortalUI
 {
@@ -26,6 +27,10 @@ namespace EmployeePortalUI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging(option => {
+                option.AddDebug();
+            });
+
             services.AddDbContextPool<PortalContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("defaultConnection"));
             });

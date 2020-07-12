@@ -9,8 +9,8 @@ using EmployeePortal.Core;
 using EmployeePortal.Data;
 using EmployeePortal.Data.Repository;
 using System.Timers;
-using EmployeePortal.Services.Factory;
-using EmployeePortal.Services.Managers;
+//using EmployeePortal.Services.Factory;
+using EmployeePortal.Services.Managers.FactoryMethod;
 
 namespace EmployeePortalUI.Controllers
 {
@@ -69,10 +69,11 @@ namespace EmployeePortalUI.Controllers
 
         Employee CalcalteHourlyPay_Bonus(Employee employee)
         {
-            EmployeeManagerFactory empFactory = new EmployeeManagerFactory();
-            IEmployeeManager empMager = empFactory.GetEmployeeType(employee.EmployeeTypeId);
-            employee.HourlyPay = empMager.GetHourlyPay();
-            employee.Bonus = empMager.GetBouns();
+            BaseEmployeeFactory empFactory = new EmployeeManagerFactory().CreateFactory(employee);
+            empFactory.ApplySalary();
+            //IEmployeeManager empMager = empFactory.GetEmployeeType(employee.EmployeeTypeId);
+            //employee.HourlyPay = empMager.GetHourlyPay();
+            //employee.Bonus = empMager.GetBouns();
              
             return employee;
         }

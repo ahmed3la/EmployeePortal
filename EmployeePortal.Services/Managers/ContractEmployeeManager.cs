@@ -17,5 +17,9 @@ namespace EmployeePortal.Services.Managers
         {
             return 12;
         }
+        public decimal GetMedicalAllowance()
+        {
+            return 100;
+        }
     }
 }

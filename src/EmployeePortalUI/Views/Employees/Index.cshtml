@@ -25,10 +25,19 @@
                 @Html.DisplayNameFor(model => model.Department)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.EmployeeTypeId)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.HourlyPay)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Bonus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HouseAllowance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicalAllowance)
             </th>
             <th></th>
         </tr>
@@ -49,11 +58,20 @@
                 @Html.DisplayFor(modelItem => item.Department)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.EmployeeTypeId)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.HourlyPay)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Bonus)
             </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.HouseAllowance)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.MedicalAllowance)
+            </th>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

@@ -131,3 +131,6 @@ D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\ob
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\obj\Debug\net5.0\XUnitTestData.dll
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\obj\Debug\net5.0\XUnitTestData.pdb
 D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\obj\Debug\net5.0\XUnitTestData.genruntimeconfig.cache
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\bin\Debug\net5.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\bin\Debug\net5.0\Microsoft.Extensions.Logging.Console.dll
+D:\DevPlayground\source\repos\EmployeePortalCore\EmployeePortal\XUnitTestData\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
