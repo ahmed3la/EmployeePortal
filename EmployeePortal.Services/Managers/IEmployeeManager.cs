@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeePortal.Services.Managers
 {
-    interface IEmployeeManager
+    public interface IEmployeeManager
     {
-        public decimal GetBouns();
-        public decimal GetHourlyPay();
+        public double GetBouns();
+        public double GetHourlyPay();
     }
 }

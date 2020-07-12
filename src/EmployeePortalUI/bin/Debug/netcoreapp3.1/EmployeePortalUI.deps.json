@@ -26,6 +26,7 @@
         "dependencies": {
           "EmployeePortal.Core": "1.0.0",
           "EmployeePortal.Data": "1.0.0",
+          "EmployeePortal.Services": "1.0.0",
           "ErikEJ.EntityFrameworkCore.DgmlBuilder": "3.1.1",
           "Microsoft.EntityFrameworkCore.Design": "3.1.5",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.5",
@@ -2333,6 +2334,18 @@
         },
         "compile": {
           "EmployeePortal.Data.dll": {}
+        }
+      },
+      "EmployeePortal.Services/1.0.0": {
+        "dependencies": {
+          "EmployeePortal.Core": "1.0.0",
+          "EmployeePortal.Data": "1.0.0"
+        },
+        "runtime": {
+          "EmployeePortal.Services.dll": {}
+        },
+        "compile": {
+          "EmployeePortal.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5051,6 +5064,11 @@
       "sha512": ""
     },
     "EmployeePortal.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeePortal.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

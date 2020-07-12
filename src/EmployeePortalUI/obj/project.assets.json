@@ -2714,6 +2714,20 @@
         "runtime": {
           "bin/placeholder/EmployeePortal.Data.dll": {}
         }
+      },
+      "EmployeePortal.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EmployeePortal.Core": "1.0.0",
+          "EmployeePortal.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeePortal.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeePortal.Services.dll": {}
+        }
       }
     }
   },
@@ -8636,12 +8650,18 @@
       "type": "project",
       "path": "../EmployeePortal.Data/EmployeePortal.Data.csproj",
       "msbuildProject": "../EmployeePortal.Data/EmployeePortal.Data.csproj"
+    },
+    "EmployeePortal.Services/1.0.0": {
+      "type": "project",
+      "path": "../../EmployeePortal.Services/EmployeePortal.Services.csproj",
+      "msbuildProject": "../../EmployeePortal.Services/EmployeePortal.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "EmployeePortal.Core >= 1.0.0",
       "EmployeePortal.Data >= 1.0.0",
+      "EmployeePortal.Services >= 1.0.0",
       "ErikEJ.EntityFrameworkCore.DgmlBuilder >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.5",
@@ -8680,6 +8700,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\EmployeePortal.Services\\EmployeePortal.Services.csproj": {
+              "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\EmployeePortal.Services\\EmployeePortal.Services.csproj"
+            },
             "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
               "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
             },
