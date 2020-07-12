@@ -8,12 +8,12 @@ namespace EmployeePortal.Services.Managers
 {
     public class ContractEmployeeManager : IEmployeeManager
     {
-        public double GetBouns()
+        public decimal GetBouns()
         {
             return 5;
         }
 
-        public double GetHourlyPay()
+        public decimal GetHourlyPay()
         {
             return 12;
         }

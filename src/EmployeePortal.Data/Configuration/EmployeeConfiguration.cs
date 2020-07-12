@@ -18,8 +18,13 @@ namespace EmployeePortal.Data.Configuration
 
             builder.HasOne(a => a.EmployeeType)
                 .WithMany(a => a.Employees)
-                .IsRequired(); 
-            
+                .IsRequired();
+
+            builder.Property(a => a.Bonus).HasColumnType("decimal(4,2)");
+            builder.Property(a => a.HourlyPay).HasColumnType("decimal(4,2)");
+
+            builder.Property(a => a.HouseAllowance).HasColumnType("decimal(4,2)");
+            builder.Property(a => a.MedicalAllowance).HasColumnType("decimal(4,2)");
         }
 
 

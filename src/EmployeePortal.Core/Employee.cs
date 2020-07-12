@@ -13,8 +13,10 @@ namespace EmployeePortal.Core
         public string JobDescription { get; set; }
         public string Number { get; set; }
         public string Department { get; set; }
-        public double HourlyPay { get; set; }
-        public double Bonus { get; set; }
+        public decimal HourlyPay { get; set; }
+        public decimal Bonus { get; set; }
+        public decimal? HouseAllowance { get; set; }
+        public decimal? MedicalAllowance { get; set; }
         public int EmployeeTypeId { get; set; }
         public EmployeeType EmployeeType { get; set; }
          

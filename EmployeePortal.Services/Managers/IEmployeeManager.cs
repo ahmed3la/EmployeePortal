@@ -8,7 +8,7 @@ namespace EmployeePortal.Services.Managers
 {
     public interface IEmployeeManager
     {
-        public double GetBouns();
-        public double GetHourlyPay();
+        public decimal GetBouns();
+        public decimal GetHourlyPay();
     }
 }
