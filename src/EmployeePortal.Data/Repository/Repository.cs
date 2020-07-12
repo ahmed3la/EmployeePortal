@@ -25,7 +25,7 @@ namespace EmployeePortal.Data.Repository
         //public virtual IEnumerable<TEntity> GetWithRawSql(string query,
         //    params object[] parameters)
         //{
-        //    return dbSet.FromSql(query, parameters).ToList();
+        //    return  dbSet.FromSql(query, parameters).ToList();
 
         //}
 

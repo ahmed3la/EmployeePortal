@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeePortal.Core", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeePortal.Data", "src\EmployeePortal.Data\EmployeePortal.Data.csproj", "{0C2A3043-2EA0-48A5-9CFF-524B54C230E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestData", "XUnitTestData\XUnitTestData.csproj", "{3D68536E-961A-4A3C-9FF3-F38E6A9D9DD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestData", "XUnitTestData\XUnitTestData.csproj", "{3D68536E-961A-4A3C-9FF3-F38E6A9D9DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePortal.Services", "EmployeePortal.Services\EmployeePortal.Services.csproj", "{6CD0AC9E-4E9F-4083-A7DF-E531C7DEAB18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{3D68536E-961A-4A3C-9FF3-F38E6A9D9DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D68536E-961A-4A3C-9FF3-F38E6A9D9DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D68536E-961A-4A3C-9FF3-F38E6A9D9DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD0AC9E-4E9F-4083-A7DF-E531C7DEAB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD0AC9E-4E9F-4083-A7DF-E531C7DEAB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD0AC9E-4E9F-4083-A7DF-E531C7DEAB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD0AC9E-4E9F-4083-A7DF-E531C7DEAB18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{CEE71EC0-B975-49A9-B0CE-FF49033019EB} = {0BAD4C48-A34A-4659-9685-6E8D80C185AA}
 		{0C2A3043-2EA0-48A5-9CFF-524B54C230E0} = {0BAD4C48-A34A-4659-9685-6E8D80C185AA}
 		{3D68536E-961A-4A3C-9FF3-F38E6A9D9DD7} = {0BAD4C48-A34A-4659-9685-6E8D80C185AA}
+		{6CD0AC9E-4E9F-4083-A7DF-E531C7DEAB18} = {0BAD4C48-A34A-4659-9685-6E8D80C185AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D13846C5-A203-4BBB-860F-31C4539EBCEB}

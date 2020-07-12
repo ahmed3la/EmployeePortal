@@ -15,6 +15,7 @@ namespace EmployeePortal.Core
         public string Department { get; set; }
         public double HourlyPay { get; set; }
         public double Bonus { get; set; }
+        public int EmployeeTypeId { get; set; }
         public EmployeeType EmployeeType { get; set; }
          
     }

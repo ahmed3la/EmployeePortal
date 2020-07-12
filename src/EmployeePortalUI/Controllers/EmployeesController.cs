@@ -8,12 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using EmployeePortal.Core;
 using EmployeePortal.Data;
 using EmployeePortal.Data.Repository;
+using System.Timers;
 
 namespace EmployeePortalUI.Controllers
 {
     public class EmployeesController : Controller
     {
-         private readonly IUnitOfWork unitOfWork;
+        private readonly IUnitOfWork unitOfWork;
 
         public EmployeesController(IUnitOfWork unitOfWork)
         {
@@ -45,11 +46,39 @@ namespace EmployeePortalUI.Controllers
 
             return View(employee);
         }
-
+         
         // GET: Employees/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            await FillSelectListEmployeeType();
+
             return View();
+        }
+        private async Task FillSelectListEmployeeType()
+        {
+            var employeeTypes = (await unitOfWork.EmployeeTypes.GetAsync()).ToList();
+
+            employeeTypes.Insert(0, new EmployeeType() { Id = -1, EmpType = "--- Please select a type ---" });
+            //return employeeTypes;
+
+            ViewBag.EmpType = employeeTypes;
+        }
+
+
+        Employee CalcalteHourlyPay_Bonus(Employee employee)
+        {
+            if (employee.EmployeeTypeId == 1)
+            {
+                employee.HourlyPay = 8;
+                employee.Bonus = 10;
+            }
+            else if (employee.EmployeeTypeId == 2)
+            {
+                employee.HourlyPay = 12;
+                employee.Bonus = 15;
+            }
+
+            return employee;
         }
 
         // POST: Employees/Create
@@ -57,10 +86,12 @@ namespace EmployeePortalUI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,JobDescription,Number,Department,HourlyPay,Bonus")] Employee employee)
+        public async Task<IActionResult> Create( Employee employee)
         {
             if (ModelState.IsValid)
             {
+                CalcalteHourlyPay_Bonus(employee);
+
                 unitOfWork.Employees.Insert(employee);
                 await unitOfWork.SaveAsync();
                 return RedirectToAction(nameof(Index));
@@ -81,6 +112,7 @@ namespace EmployeePortalUI.Controllers
             {
                 return NotFound();
             }
+            await FillSelectListEmployeeType();
             return View(employee);
         }
 
@@ -89,7 +121,7 @@ namespace EmployeePortalUI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,JobDescription,Number,Department,HourlyPay,Bonus")] Employee employee)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,JobDescription,Number,Department,EmployeeTypeId")] Employee employee)
         {
             if (id != employee.Id)
             {
@@ -100,6 +132,7 @@ namespace EmployeePortalUI.Controllers
             {
                 try
                 {
+                    CalcalteHourlyPay_Bonus(employee);
                     unitOfWork.Employees.Update(employee);
                     await unitOfWork.SaveAsync();
                 }

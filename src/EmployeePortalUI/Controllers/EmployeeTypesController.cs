@@ -13,7 +13,7 @@ namespace EmployeePortalUI.Controllers
     public class EmployeeTypesController : Controller
     {
         private readonly PortalContext _context;
-
+        
         public EmployeeTypesController(PortalContext context)
         {
             _context = context;
