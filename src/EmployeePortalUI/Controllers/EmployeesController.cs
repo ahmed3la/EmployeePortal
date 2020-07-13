@@ -10,7 +10,7 @@ using EmployeePortal.Data;
 using EmployeePortal.Data.Repository;
 using System.Timers;
 //using EmployeePortal.Services.Factory;
-using EmployeePortal.Services.Managers.FactoryMethod;
+using EmployeePortal.Services.Factory.FactoryMethod;
 
 namespace EmployeePortalUI.Controllers
 {

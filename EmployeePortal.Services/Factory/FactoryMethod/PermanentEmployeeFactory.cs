@@ -1,9 +1,10 @@
 ﻿using EmployeePortal.Core;
+using EmployeePortal.Services.Manager;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EmployeePortal.Services.Managers.FactoryMethod
+namespace EmployeePortal.Services.Factory.FactoryMethod
 {
     public class PermanentEmployeeFactory : BaseEmployeeFactory
     {

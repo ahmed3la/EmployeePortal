@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeePortal.Services.Managers
+namespace EmployeePortal.Services.Manager
 {
     public interface IEmployeeManager
     {
