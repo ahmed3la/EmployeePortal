@@ -25,7 +25,9 @@ namespace EmployeePortal.Data.Configuration
 
             builder.Property(a => a.HouseAllowance).HasColumnType("decimal(8,2)");
             builder.Property(a => a.MedicalAllowance).HasColumnType("decimal(8,2)");
-        }
+
+            builder.Property(a => a.ComputerDetails).HasColumnType("varchar(250)");
+    }
 
 
 

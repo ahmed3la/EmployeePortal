@@ -19,6 +19,7 @@ namespace EmployeePortal.Core
         public decimal? MedicalAllowance { get; set; }
         public int EmployeeTypeId { get; set; }
         public EmployeeType EmployeeType { get; set; }
-         
+        public string ComputerDetails { get; set; }
+
     }
 }
