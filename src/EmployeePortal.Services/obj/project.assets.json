@@ -5041,13 +5041,13 @@
     },
     "EmployeePortal.Core/1.0.0": {
       "type": "project",
-      "path": "../src/EmployeePortal.Core/EmployeePortal.Core.csproj",
-      "msbuildProject": "../src/EmployeePortal.Core/EmployeePortal.Core.csproj"
+      "path": "../EmployeePortal.Core/EmployeePortal.Core.csproj",
+      "msbuildProject": "../EmployeePortal.Core/EmployeePortal.Core.csproj"
     },
     "EmployeePortal.Data/1.0.0": {
       "type": "project",
-      "path": "../src/EmployeePortal.Data/EmployeePortal.Data.csproj",
-      "msbuildProject": "../src/EmployeePortal.Data/EmployeePortal.Data.csproj"
+      "path": "../EmployeePortal.Data/EmployeePortal.Data.csproj",
+      "msbuildProject": "../EmployeePortal.Data/EmployeePortal.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5063,11 +5063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
+      "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
       "projectName": "EmployeePortal.Services",
-      "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
+      "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\EmployeePortal.Services\\obj\\",
+      "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

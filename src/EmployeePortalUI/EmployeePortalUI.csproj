@@ -19,9 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\EmployeePortal.Services\EmployeePortal.Services.csproj" />
     <ProjectReference Include="..\EmployeePortal.Core\EmployeePortal.Core.csproj" />
     <ProjectReference Include="..\EmployeePortal.Data\EmployeePortal.Data.csproj" />
+    <ProjectReference Include="..\EmployeePortal.Services\EmployeePortal.Services.csproj" />
   </ItemGroup>
 
 </Project>
