@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeePortal.Services.Factory.AbstractFactory
 {
-    public class I7 : IProcessors
+    public class Processors : IProcessors
     {
         public string GetProcessors()
         {

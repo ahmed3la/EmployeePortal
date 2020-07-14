@@ -11,6 +11,7 @@ using EmployeePortal.Data.Repository;
 using System.Timers;
 //using EmployeePortal.Services.Factory;
 using EmployeePortal.Services.Factory.FactoryMethod;
+using EmployeePortal.Services.Factory.AbstractFactory;
 
 namespace EmployeePortalUI.Controllers
 {
@@ -71,10 +72,11 @@ namespace EmployeePortalUI.Controllers
         {
             BaseEmployeeFactory empFactory = new EmployeeManagerFactory().CreateFactory(employee);
             empFactory.ApplySalary();
-            //IEmployeeManager empMager = empFactory.GetEmployeeType(employee.EmployeeTypeId);
-            //employee.HourlyPay = empMager.GetHourlyPay();
-            //employee.Bonus = empMager.GetBouns();
-             
+            
+            IComputerFactory computerFactory = new EmployeeSystemFactory().Create(employee);
+            EmployeeSystemManager employeeSystemManager = new EmployeeSystemManager(computerFactory);
+            employee.ComputerDetails = employeeSystemManager.GetSystemDetails();
+
             return employee;
         }
 
