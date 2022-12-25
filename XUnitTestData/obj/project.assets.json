@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v5.0": {
+    "net6.0": {
       "coverlet.collector/1.2.0": {
         "type": "package",
         "build": {
@@ -1758,7 +1758,7 @@
       },
       "EmployeePortal.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/EmployeePortal.Core.dll": {}
         },
@@ -1768,7 +1768,7 @@
       },
       "EmployeePortal.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "EmployeePortal.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore.sqlserver": "3.1.5",
@@ -2350,7 +2350,7 @@
       ]
     },
     "Microsoft.NET.Test.Sdk/16.6.0": {
-      "sha512": "/NBhRfOSmXjS9aBDavuZCpB76zJIq0z7qo0hNuc/EM8ih+kuMNH0cmFrwJUhlM4XCrloqc9smwhyFpw/xLpbnA==",
+      "sha512": "Ovn6x+hUumERZlilJLhf9CieJ+Muq1o4Nl/sqqXsOhg/oVNOB7ky2qHFN1gjkEBu3NNXSdOCp1XNW0a7+goeDw==",
       "type": "package",
       "path": "microsoft.net.test.sdk/16.6.0",
       "files": [
@@ -6229,7 +6229,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v5.0": [
+    "net6.0": [
       "EmployeePortal.Core >= 1.0.0",
       "EmployeePortal.Data >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.6.0",
@@ -6240,40 +6240,40 @@
   },
   "packageFolders": {
     "C:\\Users\\ahmed\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "F:\\VS Installing\\VS 2022\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\XUnitTestData\\XUnitTestData.csproj",
+      "projectUniqueName": "D:\\Learn\\Github Repo\\EmployeePortal\\XUnitTestData\\XUnitTestData.csproj",
       "projectName": "XUnitTestData",
-      "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\XUnitTestData\\XUnitTestData.csproj",
+      "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\XUnitTestData\\XUnitTestData.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\XUnitTestData\\obj\\",
+      "outputPath": "D:\\Learn\\Github Repo\\EmployeePortal\\XUnitTestData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "F:\\VS Installing\\VS 2022\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
-              "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
+            "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
+              "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
             },
-            "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
-              "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj"
+            "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
+              "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj"
             }
           }
         }
@@ -6285,7 +6285,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6319,7 +6320,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

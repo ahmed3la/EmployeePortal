@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj": {}
+    "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj": {}
   },
   "projects": {
-    "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
+    "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj",
+        "projectUniqueName": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj",
         "projectName": "EmployeePortal.Core",
-        "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj",
+        "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\obj\\",
+        "outputPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "F:\\VS Installing\\VS 2022\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -40,7 +40,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -51,50 +52,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
+    "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj",
+        "projectUniqueName": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj",
         "projectName": "EmployeePortal.Data",
-        "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj",
+        "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\obj\\",
+        "outputPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "F:\\VS Installing\\VS 2022\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
-                "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
+              "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
+                "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
               }
             }
           }
@@ -106,7 +101,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -137,53 +133,47 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj": {
+    "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
+        "projectUniqueName": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
         "projectName": "EmployeePortal.Services",
-        "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
+        "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\obj\\",
+        "outputPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "F:\\VS Installing\\VS 2022\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
-                "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
+              "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
+                "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
               },
-              "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
-                "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj"
+              "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
+                "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj"
               }
             }
           }
@@ -195,7 +185,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -206,56 +197,50 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj": {
+    "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj",
+        "projectUniqueName": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj",
         "projectName": "EmployeePortalUI",
-        "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj",
+        "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortalUI\\EmployeePortalUI.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortalUI\\obj\\",
+        "outputPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortalUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "F:\\VS Installing\\VS 2022\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
-                "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
+              "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj": {
+                "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Core\\EmployeePortal.Core.csproj"
               },
-              "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
-                "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj"
+              "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj": {
+                "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Data\\EmployeePortal.Data.csproj"
               },
-              "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj": {
-                "projectPath": "D:\\DevPlayground\\source\\repos\\EmployeePortalCore\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj"
+              "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj": {
+                "projectPath": "D:\\Learn\\Github Repo\\EmployeePortal\\src\\EmployeePortal.Services\\EmployeePortal.Services.csproj"
               }
             }
           }
@@ -267,7 +252,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "ErikEJ.EntityFrameworkCore.DgmlBuilder": {
               "target": "Package",
@@ -304,16 +290,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -322,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.5.20279.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
